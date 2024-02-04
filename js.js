@@ -6,7 +6,7 @@ function pc(){
    document.getElementById('pagina1').style.width = '40%' ;
    document.getElementById('pagina2').style.width = '40%' ;
    document.getElementById('noti').style.width = '40%' ;
-   document.getElementById('event').style.width = '40%' ;
+   document.getElementById('evento').style.width = '40%' ;
 
 
    alert("estoy en pc")
@@ -18,12 +18,17 @@ function movil(){
    document.getElementById("LOGIN").style.width = "100%";
    document.getElementById("pagina1").style.width = "100%" ;
    document.getElementById("pagina2").style.width = "100%" ;
-   document.getElementById("noti").style.width = "100%" ;
-   document.getElementById("event").style.width = "100%" ;
-   document.getElementById("icono1").style.marginLeft = "60%" ;
-   document.getElementById("perfil").style.width = "40%" ;
-   document.getElementById("buscador").style.height = "7%";
-   document.getElementById('paseador').style.width = "20%"
+   document.getElementById("noti").style.width = "100%" ; 
+   document.getElementById("evento").style.width = "100%" ;
+   
+   document.getElementById("icono1").style.marginLeft = "80%" ;
+   
+   document.getElementById("buscar").style.height = "70%";
+   
+   document.getElementById('pasea').style.width = "30%";
+   
+   document.getElementById('resta').style.width = "28%";
+   alert("modo mobil");
 
 }
  const user = [];
