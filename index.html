@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="imagen/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="js.js" defer></script>
+</head>
+<body class="body" id="body">
+    
+    <div class="inicio" id="inicio">
+        <br><br><br><center>
+        <h1>¿que dispositivo esta usando? </h1>
+        <button onclick="pc()">PC</button>
+        <button onclick="movil()">Movil</button>
+        </center>
+    </div>
+    <div class="LOGIN" id="LOGIN">
+            <center>
+            <img src="imagen/logo.png" width="30%">
+            </center>
+            <div class = "text">            
+                <div class = "text1" id="re">
+                    <h1>
+                        <p>
+                        <font color="white" face="cursive">¿Qué le pasa a mi perro?</font>
+                    </h1>   
+                        </p>
+                </div>
+                <div class = "text2">
+                    <h1>Login</h1>
+                    <p>
+                    <font color="#7a7977" face=""><label for="name">NAME</label></font>
+                    <br><br>
+                    <input type="text" id="Nombre">
+                    </p>
+                    <p>
+                    <font color="#7a7977"><label for="contraseña">PASSWORD</label></font>
+                    <br><br>
+                    <input type="password" id="Contraseña">
+                    </p>
+                    <br>
+                    <font color="white"><button id="boton" onclick="registrar();"><center>LOGIN IN</center></font></button>
+                </div>
+            </div>
+    </div>
+    <div class="pagina1" id="pagina1">
+
+        <div class="parte1" id="parte1"> 
+            <div class="imagen1">
+                <img src="imagen/portada.png" width="45%">
+            </div>
+            <div class="text1">
+                <h1>Contrata paseador</h1>
+                <h2>si estás corto de tiempo cuenta con paseadores de perros que te ayuden con tu mascota</h2>
+
+            </div>
+        </div>
+
+        <div class="parte2" id="parte2"> 
+            <div class="imagen2">
+                <img src="imagen/portada2.png" width="45%">
+            </div>
+            <div class="text1">
+                <h1>Un foro para diversos funciones</h1>
+                <h2>-busca sitios que admiten entrar con perro</h2>
+                <h2>-consultar que le pasa a mi perro con nuestro foro</h2>
+                <h2>-contratar o convertirse en paseador</h2>
+
+            </div>
+        </div>
+
+        <div class="portada">
+            <div class="circuloB">
+                <i class='bx bxs-circle bx-sm'onclick="change1()" id="boton1"></i>
+            </div>
+            
+            <div class="circuloN" >
+                <i class='bx bx-circle bx-sm' id="boton2" onclick="change2();"></i>
+            </div>
+            <div class="efectos">
+                <i class='bx bx-right-arrow-alt bx-lg' onclick="change3()" id="skip"></i>
+            </div>
+        </div>
+    </div>
+    <div class="pagina2" id="pagina2">            
+        <div class="noti" id="noti">
+            <div class="cabeza">
+                <i class='bx bx-x bx-md' onclick="cerrarnoti()"></i>
+                <center><h1>Notificaciones</h1></center>
+            </div>
+            <div class="cuerpo">
+                <center><h3>No hay nada demomento</h3></center>
+            </div>
+        </div>
+        <div class="menu">            
+
+            <div class="icono2">
+                <i class='bx bx-x bx-md' onclick="cerrar()"></i>
+            </div>
+            <div class="icono1" id="icono1">
+                <i class='bx bxs-bell-ring bx-sm' onclick="noti()"></i>
+                
+                <i class='bx bx-menu bx-sm' onclick="menu()"></i>
+            </div>
+            <div class="imagen1">
+                <img src="imagen/icono perro.png"  style="float:left;" id="perfil">               
+                <div class="text" ><h2 id="name">Name</h2></div>
+                <div class="text1"><h6 id="@name">@Name</h6></div>
+            </div>
+            <br>
+            <div class="content">
+                <div class="text1"><h2>Mi saldo</h2></div>                
+                <div class="text2" ><h6 id="saldo">0€</h6></div>
+            </div>
+            <div class="content2">                
+                <div class="text3"><h2>Mis puntos</h2></div>
+                <div class="text4"><h6 id="puntos">0</h6></div> 
+            </div> 
+        </div>     
+        <div class="buscador" id="buscador" >
+            <i class='bx bx-search bx-sm' id="busqueda"></i>            
+            <input type="text" placeholder="" id="buscar">   
+        </div> 
+        <div class="hojab" id="hojab"></div>
+        <div class="veterinario" id="veterinario">
+            <div class="v">
+                <h2>Repuestas veterinarios</h2>
+                <img src="imagen/ico2.png" class="imagen1">
+                <div class="text1" ><h2>Veterinario</h2></div>
+                <h3 id="texto1_Vete">La razón por la que su perro no come se debe a la reciente vacuna que acabamos de aplicar.</h3> 
+            </div>
+            <br> 
+        <div class="u">
+                <br>            
+                <h2>Repuestas usuario</h2>
+                <br>
+                <img src="imagen/ico.png" class="imagen2">
+                <div class="text2" ><h2>Usuario</h2></div>
+                <h3 id="texto2_Vete">Mi perro no comía nada, gracias a las pastillas recetadas pudo comer.</h3>
+                <br><br><br>
+        </div>
+
+        </div>
+        <div class="restaurante" id="restaurante">
+            <br>
+            <div class="recomendado">
+                <h2>Recomendado </h2>
+                <div class="imagen1"onclick="paginaG('https://www.somosdegozar.com/')">       
+                    <img src="imagen/gozar.jpg" class="Gozar">
+                    <div class="text1"><h3>Gozar neotaberna</h3></div>
+                </div>
+
+                <div class="imagen2">                
+                    <img src="imagen/tecla.jpg" onclick="paginaG('https://www.donatecla.es/')" class="Doña">
+                    <div class="text2"><h3>Doña Tecla</h3></div>
+                </div>
+            </div>
+            <br>
+            <div class="punto">
+                <h2>Mejor puntuado</h2>
+                <div class="imagen1">       
+                    <img src="imagen/tavernier.jfif" onclick="paginaG('https://www.srperro.com/le-tavernier-madrid/')"  class="Tavernier">
+                    <div class="text1"><h3>Le Tavernuer Madrid</h3></div>
+                </div>
+
+                <div class="imagen2">                
+                    <img src="imagen/fiera.jfif" onclick="paginaG('https://fieracocina.com/')" class="fiera">
+                    <div class="text2"><h3>Fiera</h3></div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="pasear" id="pasear">
+            <div class="fila1">
+                <h2>servicio</h2>
+                <div class="grupo1" onclick="Cpaseador()">                  
+                    <img src="imagen/pasear perro.jpg" >
+                   <div class="text1"><h3>pasear tu perro</h3></div>
+                </div>
+                <div class="grupo2" onclick="Cpaseador()">                
+                    <img src="imagen/paseador.jpg" >
+                    <div class="text2"><h3>paseador</h3></div>
+                </div>
+
+            </div>
+            <br>
+            <div class="fila2">
+                <div class="grupo3" onclick="evento()">
+                    <img src="imagen/evento.jpg" >
+                    <div class="text3"><h3>eventos</h3></div>
+                </div>
+                <div class="grupo4">                
+                    <img src="imagen/mapa.png" >
+                    <button onclick="mapa()">ubicación</button>
+                </div>
+
+            </div>
+           
+
+
+
+        </div>
+        <div class="boton">
+        <button class="vete" onclick="veterinario()" id="vete"><img src="imagen/VETERINARIO.png" ><p>Veterinario</p></button>
+        <button class="restaurantes" onclick="restaurante()" id="resta"><img src="imagen/RESTAURANTES.png" ><p>restaurantes</p></button>
+        <button class="paseador"onclick="paseador()" id="pasea"><img src="imagen/PASEO.png" ><p>paseador</p></button>
+        </div>
+    </div> 
+    <div class="evento" id="evento">
+                <i class='bx bx-x bx-md' onclick="cerrarEvento()"></i>
+                <img src="imagen/evento1.png">
+                <img src="imagen/evento2.png">
+    </div>
+</body>
+</html>                                                                                                                          

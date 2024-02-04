@@ -1,0 +1,551 @@
+
+.body{
+position: relative;
+font-family: Arial, Helvetica, sans-serif;
+padding:0;
+margin:0;
+display: flex;
+align-items: center;
+justify-content: center;
+height:100vh;
+background-image: url(imagen/fondo1.png);
+}
+.inicio{
+width: 100%;
+height: 100%;
+display: block;
+justify-content: center;
+background-color: white;
+}
+.inicio button{
+width: 10%;
+height: 10%;
+margin-right: 2.5%;
+}
+.LOGIN{
+font: bold 70%  cursive;
+color: #1C2120;
+background-color:#282928;
+background-attachment: fixed;
+overflow: hidden;
+width:40%;
+height: 100%;
+align-items: center;
+display: none;
+}
+
+.LOGIN  img{
+margin-top: 10%;
+background-color: white;
+border-radius: 2rem;
+}
+.LOGIN .text{
+ height: 100vh;
+ align-items: center;
+ text-align: center;
+}
+.LOGIN .text .text1{
+font: 150% ;
+}
+.LOGIN .text .text2{
+background-color: white;
+border-top-right-radius:10rem;
+overflow: hidden;
+height: 100%;
+}
+
+.LOGIN .text .text2 input{
+width: 200px;
+height: 35px;
+background-color:#979592;
+outline: none;
+border-radius: 1rem;
+text-align: center;
+}
+.LOGIN .text .text2 button{
+    width: 200px;
+    height: 35px;
+    background-color:black;
+    outline: none;
+    border-radius: 1rem;
+    text-align: center;
+}
+.pagina1{
+    background-color:white;
+    background-attachment: fixed;
+    overflow: hidden;
+    width:40%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+.pagina1 .portada .efectos{
+margin-top:5% ;
+margin-right: 1%;
+margin-left: 25%;
+display: inline-block;
+}
+.pagina1 .portada .circuloB{
+display: inline-block;
+margin-top: 5%;
+margin-left: 35%;
+} 
+.pagina1 .portada .circuloN{
+display: inline-block;
+margin-top: 5%;
+margin-left: 1%;
+}
+.pagina1 .parte1 .imagen1 img{
+margin-top:5%;
+width: 50%;
+text-align: center;
+}
+.pagina1  .parte1 .text1 h1{
+font: oblique bold 120% cursive;
+}
+.pagina1 .parte1 .text1 h2{
+margin-left:20%;
+margin-right:20%;
+font: oblique bold 100% cursive;
+}
+.pagina1 .parte1{
+display: block;
+height: 60%;
+width: 100%;
+}
+
+.pagina1 .parte2 .imagen2 img{
+margin-top:5%;
+width: 45%;
+text-align: center;
+}
+.pagina1  .parte2 .text1 h1{
+font: oblique bold 120% cursive;
+}
+.pagina1 .parte2 .text1 h2{
+margin-left:20%;
+margin-right:20%;
+font: oblique bold 100% cursive;
+}
+.pagina1 .parte2{
+display: none;
+height: 60%;
+width: 100%;
+}
+.pagina2{
+    background-color:white;
+    overflow: hidden;
+    width:40%;
+    height: 100%;
+    display: none;
+}
+.pagina2 .menu{
+    background-color: #8F8786;
+    overflow: hidden;
+    width:100%;
+    height:30%;
+}
+.pagina2 .noti{
+align-items: center;
+width: 40%;
+height: 100%;
+background-color: white;
+display: none;
+position: absolute;
+overflow-y: hidden;
+}
+
+.pagina2 .noti .cabeza{
+width: 100%;
+height: 20%;
+background-color: #8F8786;
+font: bold 120%  sans-serif; 
+font-weight: bold;
+color: #3B1B0D;
+}
+.pagina2 .noti .cuerpo{
+width: 100%;
+height: 80%;
+font: bold 70%  sans-serif;
+color: #5B3423;
+}
+.pagina2 .menu .icono1{
+display: inline-block;
+margin-top: 0%;
+margin-left: 90%;
+
+}
+.pagina2 .menu .icono2{
+display: inline-block;
+margin-top: 0%;
+
+}
+.pagina2 .menu .imagen1{
+width: 40%;
+height: 20%;
+margin-left: 10%;
+vertical-align: text-bottom;
+}
+.pagina2 .menu .imagen1 h2{
+font: bold 120%  sans-serif; 
+font-weight: bold;
+color: #3B1B0D;
+}
+.pagina2 .menu .imagen1 h6{
+font: bold 70%  sans-serif;
+color: #5B3423;
+}
+.pagina2 .menu .imagen1 img{
+background-color: white;
+border-radius: 4rem;
+width: 30%;
+float: left;
+margin-right: 2%;
+margin-top: -8%;
+}
+.pagina2 .menu .imagen1 .text{
+margin-left: 40%;
+margin-bottom: -10%;
+margin-top: 0%;
+}
+.pagina2 .menu .imagen1 .text1{
+    margin-left: 40%;
+    margin-top: -7%;
+}
+.pagina2 .menu .content {
+display: inline-block;
+width: 35%;
+margin-left: 10%;
+}
+.pagina2 .menu .content h2{
+font: bold 120%  sans-serif;
+font-weight: bold;
+color: #3B1B0D;
+}
+.pagina2 .menu .content h6{
+font: bold 70% sans-serif;
+color: #5B3423;
+}
+.pagina2 .menu .content2 h2{
+font:  bold 120%  sans-serif;
+font-weight: bold;
+color: #3B1B0D;
+}
+.pagina2 .menu .content2 h6{
+font: bold 70%  sans-serif;
+color: #5B3423;
+}
+.pagina2 .menu .content .text1{
+margin-left: 10%;
+margin-bottom: -10%;
+}
+.pagina2 .menu .content .text2{
+margin-left: 10%;
+margin-top: -7%;
+}
+.pagina2 .menu .content2{
+display: inline-block;
+width: 35%;
+margin-top: -10%;
+margin-left: 0%;
+}
+.pagina2 .menu .content2 .text3{
+margin-left: 20%;
+margin-bottom: -10%;    
+}
+.pagina2 .menu .content2 .text4{
+margin-left: 20%;
+margin-top: -7%;
+}
+.pagina2 .buscador{
+width: 100%;
+height: 8%;
+background-image: url(imagen/fondo_buscador.PNG);
+text-align: center;
+position: relative;
+display: block;
+}
+.pagina2 .buscador input{
+margin-top: 1.5%;
+width: 40%;
+height: 80%;
+border-radius: 0.5rem;
+padding-left: 42px;
+background-color: #CFB8A5;
+font: bold 70%  sans-serif;
+color: #5B3423;
+}
+.pagina2 .buscador i{
+position: absolute;
+margin-left: 10px;
+margin-top: 3.75%;
+color: #EDDACF;
+}
+.pagina2 .hojab{
+width: 100%;
+height: 48%;
+display: block;
+}
+.pagina2 .veterinario{
+width: 90%;
+height: 48%;
+overflow-y: scroll;
+overflow-x: hidden;
+margin-left: 8%;
+display: none;
+}
+.pagina2 .veterinario h2{
+font: bold 150% cursive;
+font-weight: bold;
+color: #3B1B0D;
+}
+.pagina2 .veterinario h3{
+font: bold 100% cursive;
+font-weight: bold;
+color: #5B3423;
+}
+.pagina2 .veterinario img{
+float: left;
+}
+.pagina2 .veterinario .v{
+width: 80%;
+height: 50%;
+margin-top: -2%;
+padding-right: 30%;
+}
+.pagina2 .veterinario .u{
+width: 80%;
+height: 50%;
+margin-bottom: 5%;
+}
+.pagina2 .veterinario .v .imagen1{
+width: 15%;
+vertical-align: text-bottom;
+}
+.pagina2 .veterinario .u .imagen2{
+width: 15%;
+vertical-align: text-bottom;
+}
+.pagina2 .veterinario .v .text1{
+margin-top: 8%;
+margin-left: 18%;
+margin-bottom: 5%;
+}
+.pagina2 .veterinario .u .text2{
+margin-left: 18%;
+margin-bottom: 5%;
+margin-top: 5%;
+}
+.pagina2 .restaurante{
+width: 90%;
+height: 48%;
+overflow-y: scroll;
+overflow-x: hidden;
+margin-left: 8%;
+display: none;
+}
+.pagina2 .restaurante .recomendado{
+width: 100%;
+height: 50%;
+margin-bottom: 20%;
+}
+.pagina2 .restaurante .recomendado h2{
+font: bold 150%  sans-serif;
+font-weight: bold;
+color: #3B1B0D;
+}
+.pagina2 .restaurante .recomendado h3{
+font: bold 100% cursive;
+font-weight: bold;
+color: #5B3423;
+}
+.pagina2 .restaurante .recomendado img{
+width: 70%;
+height: 100%;
+}
+.pagina2 .restaurante .recomendado .imagen1{
+width: 50%;
+height: 100%;
+float: left;
+}
+.pagina2 .restaurante .recomendado .imagen2{
+width: 50%;
+height: 100%;
+float: left;
+}
+.pagina2 .restaurante .punto{
+width: 100%;
+height: 50%;
+margin-bottom: 20%;
+}
+.pagina2 .restaurante .punto h2{
+font: bold 150%  sans-serif;
+font-weight: bold;
+color: #3B1B0D;
+}
+.pagina2 .restaurante .punto h3{
+font: bold 100% cursive;
+font-weight: bold;
+color: #5B3423;
+}
+.pagina2 .restaurante .punto img{
+width: 70%;
+height: 100%;
+}
+.pagina2 .restaurante .punto .imagen1{
+width: 50%;
+height: 100%;
+float: left;
+}
+.pagina2 .restaurante .punto .imagen2{
+width: 50%;
+height: 100%;
+float: left;
+}
+.pagina2 .pasear{
+width: 90%;
+height: 48%;
+overflow-y: scroll;
+overflow-x: hidden;
+margin-left: 8%;
+display: none;
+} 
+.pagina2 .pasear .fila1{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20%;
+    }
+    .pagina2 .pasear .fila1 h2{
+    font: bold 150%  sans-serif;
+    font-weight: bold;
+    color: #3B1B0D;
+    }
+    .pagina2 .pasear .fila1 h3{
+    font: bold 100% cursive;
+    font-weight: bold;
+    color: #5B3423;
+    }
+    .pagina2 .pasear .fila1 img{
+    width: 70%;
+    height: 100%;
+    }
+    .pagina2 .pasear .fila1 .grupo1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    }
+    .pagina2 .pasear .fila1 .grupo1 .text1{
+    margin-left: 10%;
+    margin-top: -4%;
+    width: 60%;
+    text-align: center;
+    }
+    .pagina2 .pasear .fila1 .grupo2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    }
+    .pagina2 .pasear .fila1 .grupo2 .text2{
+    margin-left: 10%;
+    width: 60%;
+    text-align: center;
+    margin-top: -4%;
+    }
+    .pagina2 .pasear .fila2{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20%;
+    }
+    .pagina2 .pasear .fila2 h2{
+    font: bold 150%  sans-serif;
+    font-weight: bold;
+    color: #3B1B0D;
+    }
+    .pagina2 .pasear .fila2 h3{
+    font: bold 100% cursive;
+    font-weight: bold;
+    color: #5B3423;
+    }
+    .pagina2 .pasear .fila2 img{
+    width: 70%;
+    height: 100%;
+    }
+    .pagina2 .pasear .fila2 .grupo3{
+    width: 50%;
+    height: 100%;
+    float: left;
+    }
+    .pagina2 .pasear .fila2 .grupo3 .text3{
+    margin-left: 8%;
+    width: 60%;
+    text-align: center;
+    margin-top: -4%;
+    }
+    .pagina2 .pasear .fila2 .grupo4{
+    width: 50%;
+    height: 100%;
+    float: left;
+    }
+    .pagina2 .pasear .fila2 .grupo4 button{
+    margin-left: 7%;
+    height: 15%;
+    width: 60%;
+    text-align: center;
+    margin-top: 5%;
+    background-color:#CFB8A5;
+    border-radius: 3rem;
+    }
+
+.evento{
+width: 40%;
+height: 100%;
+display: none;
+background-color: white;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+.evento img{
+width: 100%;
+}
+
+.pagina2 .boton{
+width: 100%;
+height: 15%;
+display: block;
+}
+.pagina2 .boton img{
+    
+width: 20%;
+}
+.pagina2 .boton button{
+height: 80%;
+}
+.pagina2 .boton p{
+font: bold 120%  sans-serif;
+font-weight: bold;
+color: #3B1B0D;
+}
+.pagina2 .boton .vete{
+width: 33%;
+height: 100%;
+background-color: white;
+}
+.pagina2 .boton .restaurantes img{
+width: 35%;
+
+}
+.pagina2 .boton .restaurantes{
+width: 33%;
+height: 100%;
+margin-left: -1%;
+background-color: white;
+}
+.pagina2 .boton .paseador{
+width: 34.5%;
+height: 99%;
+margin-left: -1%;
+background-color: white;
+}
+
+
