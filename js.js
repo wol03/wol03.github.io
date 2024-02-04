@@ -20,10 +20,10 @@ function movil(){
    document.getElementById("pagina2").style.width = "100%" ;
    document.getElementById("noti").style.width = "100%" ;
    document.getElementById("event").style.width = "100%" ;
-   document.getElementById("icono1").style.marginLeft = "85%" ;
+   document.getElementById("icono1").style.marginLeft = "80%" ;
    document.getElementById("perfil").style.width = "40%" ;
    document.getElementById("buscador").style.height = "7%";
-   document.getElementById('paseador').style.width = "30%"
+   document.getElementById('paseador').style.width = "28%"
 
 }
  const user = [];
