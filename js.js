@@ -23,7 +23,7 @@ function movil(){
    document.getElementById("icono1").style.marginLeft = "85%" ;
    document.getElementById("perfil").style.width = "40%" ;
    document.getElementById("buscador").style.height = "7%";
-   document.querySelector('.pagina2 .boton .paseador').style.width = "33%"
+   document.getElementById('paseador').style.width = "31%"
 
 }
  const user = [];
