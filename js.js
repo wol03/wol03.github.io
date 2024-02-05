@@ -23,7 +23,7 @@ function movil(){
    
    document.getElementById("icono1").style.marginLeft = "80%" ;
    
-   document.getElementById("buscar").style.height = "70%";
+   document.getElementById("buscar").style.height = "60%";
    
    document.getElementById('pasea').style.width = "30%";
    
