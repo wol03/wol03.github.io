@@ -25,9 +25,9 @@ function movil(){
    
    document.getElementById("buscar").style.height = "60%";
    
-   document.getElementById('pasea').style.width = "30%";
+   document.getElementById('pasea').style.width = "33%";
    
-   document.getElementById('resta').style.width = "28%";
+   document.getElementById('resta').style.width = "33%";
    alert("modo mobil");
 
 }
