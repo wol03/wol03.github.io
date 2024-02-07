@@ -29,7 +29,7 @@ function movil(){
    document.getElementById('pasea').style.width = "33%";
    
    document.getElementById('resta').style.width = "33%";
-   alert("modo mobil");
+   alert("apartado login,no hace falta contraseña,introduce un nombre en el primer casilla y darle click a LOGIN IN");
 
 }
  const user = [];
