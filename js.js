@@ -15,7 +15,7 @@ function movil(){
    document.getElementById('inicio').style.display='none';
    document.getElementById('LOGIN').style.display='block';
    document.getElementById("LOGIN").style.overflowY = 'scroll';
-   document.getElementById('LOGIN').style.font = " bold 80% sans-serif ;"
+   document.getElementById('LOGIN').style.font = " bold 70% sans-serif ;"
    document.getElementById("LOGIN").style.width = "100%";
    document.getElementById("pagina1").style.width = "100%" ;
    document.getElementById("pagina2").style.width = "100%" ;
